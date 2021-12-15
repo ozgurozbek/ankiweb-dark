@@ -1,0 +1,115 @@
+/*
+  Copyright 2021 ozgurozbek <ozgurozbek1@yandex.com>
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+html {
+    background: #111 !important;
+}
+
+body {
+    background-color: #222;
+    color: #eee;
+}
+
+.bg-gray {
+    background-color: #111;
+}
+
+.navbar-brand span {
+    color: #eee;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #eee;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open > .nav-link {
+    color: #00BCFF;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #aaa;
+}
+
+.nav-item a.nav-link {
+    color: #eee;
+}
+
+.btn-link {
+    color: #00BCFF;
+}
+
+.btn-link:focus,
+.btn-link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00BCFF;
+    border-color: #00BCFF;
+}
+
+.btn-secondary {
+    color: #eee;
+    background-color: #fff2;
+    border-color: #00BCFF;
+}
+
+.form-control {
+    color: #eee;
+    background-color: #fff2;
+    border: 1px solid #00BCFF;
+}
+
+.dropdown-menu {
+    text-align: center;
+    background-color: #444;
+}
+
+.dropdown-item {
+    color: #eee;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #00BCFF;
+    background-color: #eee;
+    font-weight: 600;
+}
+
+.smallLink {
+    color: orange;
+    text-decoration: none;
+}
+
+.smallLink:hover {
+    color: red;
+}
+
+#ansarea {
+    background-color: #111;
+}
+
+#rightStudyMenu {
+    background-color: #eee3;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000;
+}
