@@ -117,3 +117,18 @@ body {
 #qa_box {
     background-color: #AAA;
 }
+    
+.deckDueNumber > font {
+    color: violet;
+    font-weight: 800;
+}
+    
+.deckDueNumber:first-child > font {
+    color: greenyellow;
+    font-weight: 800;
+}
+
+div.deckDueNumber>font[color^="#e0e0e0"] {
+    color: #e0e0e0!important;
+    font-weight: initial;
+}
